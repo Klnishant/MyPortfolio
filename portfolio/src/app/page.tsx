@@ -5,8 +5,9 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 export default function Home() {
   return (
     <div>
-      <main>
-        <BackgroundBeamsWithCollision className="absolute inset-0"  children={<Heropage />} />
+      <main className="min-h-screen antialiased">
+        <BackgroundBeamsWithCollision  children={<Heropage />} />
+       
       </main>
     </div>
   );
