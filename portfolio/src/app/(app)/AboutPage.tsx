@@ -12,7 +12,7 @@ import Spline from '@splinetool/react-spline/next';
 
 function AboutPage() {
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-gray-900 text-white flex justify-start items-center">
         <div>
         <main>
       <Spline
