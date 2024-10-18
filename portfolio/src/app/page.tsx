@@ -3,6 +3,7 @@ import Heropage from "./(app)/heropage";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import { BackgroundLines } from "@/components/ui/background-lines";
 import AboutPage from "./(app)/AboutPage";
+import SkillsPage from "./(app)/SkillsPage";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <main className="min-h-screen antialiased">
         <BackgroundBeamsWithCollision  children={<Heropage />} />
         <AboutPage />
+        <SkillsPage />
       </main>
     </div>
   );
