@@ -1,11 +1,15 @@
 'use client'
 import React from 'react'
+import SkillsBubble from '@/components/SkillsBubble'
 
 function SkillsPage() {
   return (
     <div className='bg-gray-900 text-white p-5'>
         <div>
             <h2 className='text-blue-700 text-3xl font-bold'>Skills</h2>
+            <div>
+                <SkillsBubble />
+            </div>
             <div className='flex justify-between mt-5'>
                 <ul>
                     <h3 className='text-xl text-blue-700 mb-2 font-semibold'>FrontEnd</h3>
