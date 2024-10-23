@@ -15,7 +15,7 @@ function Heropage() {
             <h3 className='mt-5 text-xl'>I am a passionate and driven software developer with a strong foundation in Full Stack Web Development and Java Development, coupled with a growing expertise in Data Science.</h3>
         </div>
         <div className='w-1/2 h-full flex justify-center items-center z-10'>
-            <img src={`${mainImage.src}`} alt="mainImage" className='h-1/2 w-1/2' />
+            <img src={`${mainImage.src}`} alt="mainImage" />
         </div>
      </div>
     </div>

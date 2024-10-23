@@ -39,7 +39,7 @@ const skillLogos = [
 // Styled container for the whole section
 const Section = styled.section`
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
 `;
 
