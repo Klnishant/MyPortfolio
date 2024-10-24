@@ -4,6 +4,7 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 import { BackgroundLines } from "@/components/ui/background-lines";
 import AboutPage from "./(app)/AboutPage";
 import SkillsPage from "./(app)/SkillsPage";
+import ProjectPage from "./(app)/ProjectPage";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <BackgroundBeamsWithCollision  children={<Heropage />} />
         <AboutPage />
         <SkillsPage />
+        <ProjectPage />
       </main>
     </div>
   );
