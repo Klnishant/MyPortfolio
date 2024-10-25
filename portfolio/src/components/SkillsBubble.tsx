@@ -16,15 +16,19 @@ import pythonLogo from '@/components/icons/python.png'
 import reactLogo from '@/components/icons/react.png'
 import nextjsLogo from '@/components/icons/nextjsLogo.png'
 import reduxLogo from '@/components/icons/reduxLogo.png'
+import htmlLogo from '@/components/icons/html.png'
+import githubLogo from '@/components/icons/github.png'
 
 // Sample logos - you would replace these with actual image URLs
 const skillLogos = [
   `${tailwindLogo.src}`,
+  `${htmlLogo.src}`,
   `${cssLogo.src}`,
   `${djangoLogo.src}`,
   `${expressLogo.src}`,
   `${flaskLogo.src}`,
   `${gitLogo.src}`,
+  `${githubLogo.src}`,
   `${javaLogo.src}`,
   `${javascriptLogo.src}`,
   `${mongodbLogo.src}`,
