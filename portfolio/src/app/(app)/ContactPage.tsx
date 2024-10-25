@@ -61,11 +61,8 @@ function ContactPage() {
         }
     }
 
-    useEffect(() => {
-        
-    },[])
   return (
-    <div className='bg-gray-900 text-white p-5'>
+    <div className='bg-gray-900 text-white p-5' id='contact'>
         <h1 className='text-4xl font-bold text-blue-700 mb-5'>Contact Me</h1>
         <div className='flex justify-center items-center w-full'>
             <div className="w-full max-w-md p-8 space-y-8 rounded-lg shadow-md bg-gray-800 backdrop-blur-4xl backdrop-opacity-1 border border-gray-700 shadow-gray-900/10 dark:shadow-xl">
@@ -122,7 +119,7 @@ function ContactPage() {
                             </FormItem>
                         )}
                         />
-                        <Button type="submit">Submit</Button>
+                        <Button type="submit">Send Message</Button>
                     </form>
                 </Form>
             </div>

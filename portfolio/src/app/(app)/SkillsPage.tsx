@@ -4,7 +4,7 @@ import SkillsBubble from '@/components/SkillsBubble'
 
 function SkillsPage() {
   return (
-    <div className='bg-gray-900 text-white p-5'>
+    <div className='bg-gray-900 text-white p-5' id='skills'>
         <div>
             <h2 className='text-blue-700 text-3xl font-bold'>Skills</h2>
             <div>

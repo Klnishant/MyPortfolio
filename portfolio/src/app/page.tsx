@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <main className="min-h-screen antialiased">
-        <BackgroundBeamsWithCollision  children={<Heropage />} />
+        <BackgroundBeamsWithCollision  children={<Heropage />}  />
         <AboutPage />
         <SkillsPage />
         <ProjectPage />
