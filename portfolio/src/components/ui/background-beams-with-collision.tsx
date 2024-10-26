@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import React, { useRef, useState, useEffect } from "react";
 
 export const BackgroundBeamsWithCollision = ({
-  children,
+  children = null,
   className,
 }: {
   children: React.ReactNode;
