@@ -1,11 +1,10 @@
-import Image from "next/image";
 import Heropage from "./(app)/heropage";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
-import { BackgroundLines } from "@/components/ui/background-lines";
 import AboutPage from "./(app)/AboutPage";
 import SkillsPage from "./(app)/SkillsPage";
 import ProjectPage from "./(app)/ProjectPage";
-import ContactPage from "./(app)/ContactPage";
+import ContactPage from "./(app)/ContactPage"
+import ConnectionPage from "./(app)/ConnectionPage";
 
 export default function Home() {
   return (

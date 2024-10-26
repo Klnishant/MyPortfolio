@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { useForm } from 'react-hook-form';
+import ConnectionPage from './ConnectionPage'
 function ContactPage() {
     const formSchema = z.object({
         name: z.string().min(2,{
@@ -65,7 +66,7 @@ function ContactPage() {
     <div className='bg-gray-900 text-white p-5' id='contact'>
         <h1 className='text-4xl font-bold text-blue-700 mb-5'>Contact Me</h1>
         <div className='flex justify-center items-center w-full'>
-            <div className="w-full max-w-md p-8 space-y-8 rounded-lg shadow-md bg-gray-800 backdrop-blur-4xl backdrop-opacity-1 border border-gray-700 shadow-gray-900/10 dark:shadow-xl">
+            <div className="w-full max-w-md p-8 space-y-8 rounded-lg  bg-gray-800 backdrop-blur-4xl backdrop-opacity-1 border border-gray-700 shadow-gray-900/10 shadow-xl">
                 <div className='text-center'>
                     <h1  className="text-4xl mb-6 font-bold tracking-tight ">Send us a Message</h1>
                 </div>
@@ -124,6 +125,7 @@ function ContactPage() {
                 </Form>
             </div>
         </div>
+        <ConnectionPage />
     </div>
   )
 }
