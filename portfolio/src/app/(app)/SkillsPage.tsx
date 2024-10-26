@@ -10,7 +10,7 @@ function SkillsPage() {
             <div>
                 <SkillsBubble />
             </div>
-            <div className='flex justify-between mt-5'>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-5 md:gap-6 mt-5">
                 <ul>
                     <h3 className='text-xl text-blue-700 mb-2 font-semibold'>FrontEnd</h3>
                     <li>HTML 5</li>

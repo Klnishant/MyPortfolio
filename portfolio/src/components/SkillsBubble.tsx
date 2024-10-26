@@ -44,7 +44,8 @@ const skillLogos = [
 const Section = styled.section`
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
+  overflow: hidden;
 `;
 
 // Container for the bubble grid
@@ -74,8 +75,8 @@ const Bubble = styled(motion.div)`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
   background-color: #112240;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -88,6 +89,32 @@ const Bubble = styled(motion.div)`
   img {
     width: 50%;
     height: 50%;
+  }
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+
+    img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    img {
+    width: 50%;
+    height: 50%;
+  }
+
   }
 `;
 
