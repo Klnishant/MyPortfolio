@@ -35,7 +35,7 @@ export async function POST(request: Request) {
         }
     
         return NextResponse.json({success:true, staus: 200, message: 'Email sent successfully!'});
-    } catch (error:any) {
+    } catch (error: any) {
         return NextResponse.json({staus: 500, message: error.message});
     }
 }
