@@ -18,6 +18,7 @@ import nextjsLogo from '@/components/icons/nextjsLogo.png'
 import reduxLogo from '@/components/icons/reduxLogo.png'
 import htmlLogo from '@/components/icons/html.png'
 import githubLogo from '@/components/icons/github.png'
+import Image from 'next/image';
 
 // Sample logos - you would replace these with actual image URLs
 const skillLogos = [
@@ -132,7 +133,7 @@ function SkillsBubble (){
               transition: { duration: 3, repeat: Infinity, ease: 'easeInOut' }
             }}
           >
-            <img src={logo} alt={`Skill logo ${index}`} />
+            <Image src={logo} alt={`Skill logo ${index}`} />
           </Bubble>
         ))}
       </BubbleContainer>

@@ -1,9 +1,6 @@
 'use client'
 import React from 'react'
 import { FocusCards } from '@/components/ui/focus-cards'
-import truefeedbackImage from '@/media/image/truefeedback.png'
-import todoAppImage from '@/media/image/todoapp.png'
-import tweetAppImage from '@/media/image/tweetAppImage.png'
 import { cardData } from '@/data/cardData'
 
 function ProjectPage() {

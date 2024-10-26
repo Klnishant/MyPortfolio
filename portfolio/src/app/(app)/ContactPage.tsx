@@ -1,10 +1,10 @@
 'use client'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import axios from 'axios'
 import { useToast } from '../../components/hooks/use-toast'
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form'
+import { Form, FormControl, FormField, FormItem, FormLabel } from '@/components/ui/form'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
@@ -54,9 +54,9 @@ function ContactPage() {
                 })
             }
             form.reset();
-        } catch (error) {
+        } catch (error:any) {
             toast({
-                description: "Something went wrong",
+                description: `${error.message}`,
                 variant: "destructive",
             });
         }
