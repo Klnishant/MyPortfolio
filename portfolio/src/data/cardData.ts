@@ -1,6 +1,6 @@
 import passwordGeneratorImage from "@/media/image/passwordGenerator.png"
 import todoAppImage from "@/media/image/todoApp.png"
-import truefeedbackImage from "@/media/image/truefeedback.png"
+import truefeedbackImage from "@/media/image/trueFeedback.png"
 import tweetAppImage from "@/media/image/tweetAppImage.png"
 
 export const cardData = [
