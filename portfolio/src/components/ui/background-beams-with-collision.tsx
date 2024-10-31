@@ -3,17 +3,11 @@ import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useRef, useState, useEffect } from "react";
 import Heropage from "@/app/(app)/heropage";
+import { p } from "framer-motion/client";
 
-interface BackgroundBeamsWithCollision {
-  children?: React.ReactNode;
-  className?: string;
-}
-
-export const BackgroundBeamsWithCollision: React.FC<BackgroundBeamsWithCollision> = ({
-  children,
+export const BackgroundBeamsWithCollision = ({
   className,
 }: {
-  children?: React.ReactNode;
   className?: string;
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -103,10 +97,6 @@ export const BackgroundBeamsWithCollision: React.FC<BackgroundBeamsWithCollision
   );
 };
 
-BackgroundBeamsWithCollision.defaultProps = {
-  children: null,
-};
-
 const CollisionMechanism = React.forwardRef<
   HTMLDivElement,
   {
@@ -168,7 +158,7 @@ const CollisionMechanism = React.forwardRef<
     const animationInterval = setInterval(checkCollision, 50);
 
     return () => clearInterval(animationInterval);
-  }, [cycleCollisionDetected, containerRef]);
+  }, [cycleCollisionDetected, containerRef,parentRef]);
 
   useEffect(() => {
     if (collision.detected && collision.coordinates) {
