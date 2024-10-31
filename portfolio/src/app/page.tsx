@@ -3,13 +3,13 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 import AboutPage from "./(app)/AboutPage";
 import SkillsPage from "./(app)/SkillsPage";
 import ProjectPage from "./(app)/ProjectPage";
-import ContactPage from "./(app)/ContactPage"
+import ContactPage from "./(app)/ContactPage";
 
 export default function Home() {
   return (
     <div>
       <main className="min-h-screen antialiased">
-        <Heropage />
+        <BackgroundBeamsWithCollision />
         <AboutPage />
         <SkillsPage />
         <ProjectPage />

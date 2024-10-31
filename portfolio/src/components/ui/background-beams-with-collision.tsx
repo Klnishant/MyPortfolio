@@ -2,6 +2,7 @@
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useRef, useState, useEffect } from "react";
+import Heropage from "@/app/(app)/heropage";
 
 interface BackgroundBeamsWithCollision {
   children?: React.ReactNode;
@@ -89,7 +90,7 @@ export const BackgroundBeamsWithCollision: React.FC<BackgroundBeamsWithCollision
         />
       ))}
 
-      {children}
+      {<Heropage />}
       <div
         ref={containerRef}
         className="absolute bottom-0 bg-gray-900 w-full inset-x-0 pointer-events-none"
